@@ -11,7 +11,7 @@ function preload(){
 }
 
 function draw(){
-    image(img, 600, 400, 600, 400);
+    image(img, 320, 320, 600, 400);
 
     fill("black");
     text ("Jennie", 90, 175);
