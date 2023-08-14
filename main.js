@@ -2,7 +2,7 @@ var img = "";
 
 function setup(){
     canvas= createCanvas(600, 400);
-   canvas.center;
+   canvas.position(100, 120);
 
 }
 
@@ -11,7 +11,7 @@ function preload(){
 }
 
 function draw(){
-    image(img, 320, 320, 600, 400);
+    image(img, 100, 120, 600, 400);
 
     fill("black");
     text ("Jennie", 90, 175);
