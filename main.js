@@ -7,7 +7,7 @@ function setup(){
 }
 
 function preload(){
-    img = loadImage("bp.png");
+    img = loadImage('bp.png');
 }
 
 function draw(){
